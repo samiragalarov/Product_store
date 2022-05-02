@@ -1,0 +1,233 @@
+.SİnglePage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+
+}
+
+.SİnglePageImg {
+    width: 45%;
+    height: 90%;
+    position: relative;
+    margin-top: 50px;
+
+}
+
+.SİnglePageImg img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.SİnglePageAbout {
+    width: 45%;
+    height: 90%;
+    padding-left: 35px;
+    margin-top: 50px;
+
+}
+
+.SİnglePageAbout h1 {
+    margin-bottom: 15px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.SİnglePageAbout p {
+    margin-bottom: 15px;
+    font-size: large;
+    line-height: 30px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.money {
+    font-size: larger;
+    color: red;
+}
+
+.extraitems {
+    width: 300px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.extraitems1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+.color {
+    width: 160px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.color p {
+    font-size: 25px;
+    margin-top: 4px;
+    margin-right: 6px;
+
+}
+
+.color button {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.color span.active{
+    border: 3px solid rgb(8, 215, 50);
+}
+
+.size {
+    width: 30%;
+    display: flex;
+
+}
+
+.size p {
+    font-size: larger;
+    margin-top: 11px;
+    margin-right: 9px;
+
+
+}
+
+.size select {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 5px;
+    padding-right: 7px;
+
+}
+
+.extraitems2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: brown; */
+
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    /* background-color:aquamarine; */
+
+}
+
+.addBasketButton {
+    width: 120px;
+
+}
+
+.minus {
+    height: 95%;
+    width: 35px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maincount {
+    height: 95%;
+    width: 35px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 9px;
+
+
+}
+
+.plus {
+    height: 95%;
+    width: 35px;
+    /* background-color: rgb(241, 218, 222); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.addBasketButton {
+    width: 170px;
+    height: 80%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.addBasketButton button {
+    width: 80%;
+    height: 70%;
+    cursor: pointer;
+    border: 2px solid blue;
+
+}
+
+@media only screen and (max-width: 740px) {
+    .SİnglePage {
+        flex-direction: column;
+        height: 160vh;
+    }
+
+    .SİnglePageImg {
+        width: 97%;
+
+    }
+
+    .SİnglePageAbout {
+        width: 109%;
+
+
+    }
+
+
+}

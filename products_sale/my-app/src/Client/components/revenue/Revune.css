@@ -1,0 +1,124 @@
+.UserFeedback{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 22px;
+    flex-direction: column;
+    
+}
+.UserFeedbackHead{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainuser{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  
+
+}
+.UserFeedbackBox{
+    margin: 15px;
+    min-width: 280px;
+    width: 330px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: relative;
+    border-radius: 9px;
+
+}
+
+.UserFeedbackBox .circle{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: -40px;
+
+    border-radius: 50%;
+    background-color: white;
+
+}
+.UserFeedbackBox .circle img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+
+
+}
+.UserFeedbackBox1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    top: 0px;
+    left: 0px;
+}
+.UserFeedbackBox1{
+    width: 100%;
+    height: 40%;
+    
+    display: flex;
+    position: relative;
+
+}
+.UserFeedbackBox2{
+    width: 100%;
+    height: 60%;
+  
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.UserFeedbackBox2 p{
+    text-align: center;
+    margin-top: 18px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto Slab', serif;
+}
+@media only screen and (max-width: 700px) {
+    .UserFeedbackBox{
+        margin-bottom: 35px;
+
+    }
+    
+    
+    
+}
