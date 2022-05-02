@@ -20,7 +20,7 @@ export function Register() {
 
           });
           console.log(res)
-           res.data && window.location.replace("http://localhost:3000/login");
+           res.data && window.location.replace("/login");
         } catch (err) {
             console.log(err)
 

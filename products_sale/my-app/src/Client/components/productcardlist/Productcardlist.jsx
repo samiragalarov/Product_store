@@ -15,7 +15,9 @@ export function Productcardlist() {
               }
             })
     
-            setlastposts(res.data)          
+            setlastposts(res.data)  
+            console.log(latsposts )      
+            console.log('efw')  
     
             console.log(res.data)
     
@@ -28,10 +30,12 @@ export function Productcardlist() {
         getposts()
     
       }, [])
+
     return (
         <div className='productcardlist'>
+     
             {latsposts.map((item) => (
-                <Product item={latsposts[0]} key={item.id} />
+                <Product item={item} key={item.id} />
             ))}
 
         </div>
