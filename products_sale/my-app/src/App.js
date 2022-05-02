@@ -7,7 +7,7 @@ import { Register } from './Client/pages/register/Register.jsx';
 import SİnglePage from './Client/pages/singlepage/SİnglePage.jsx';
 import { BrowserRouter, Navigate } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Context } from './Client/context/Context';
 import { useContext } from "react";
 import { Setting } from './Client/pages/setting/Setting.jsx';
